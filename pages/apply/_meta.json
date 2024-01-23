@@ -1,7 +1,9 @@
 {
-  "essays": "Essays",
   "uc-application": "The UC Application",
   "csu-application": "The CSU Application",
   "common-application": "The Common Application",
+  "international": "International Schools",
+  "essays": "Essays",
+  "letters": "Letters of Reccomendation",
   "financial-aid": "Financial Aid"
 }

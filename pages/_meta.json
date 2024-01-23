@@ -2,5 +2,10 @@
   "index": "Introduction",
   "research": "Research",
   "apply": "Apply",
-  "timeline": "Timeline"
+  "timeline": "Timeline",
+  "resources": "Resoucres",
+  "about": {
+    "title": "About Us",
+    "type": "page"
+  }
 }

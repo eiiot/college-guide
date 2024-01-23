@@ -8,6 +8,15 @@ const config = {
       🎓 BHS College Guide (Alpha)
     </span>
   ),
+  docsRepositoryBase: "https://github.com/eiiot/college-guide/tree/main",
+  editLink: {
+    text: "Edit this page on GitHub",
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s – BHS College Guide",
+    };
+  },
   head: (
     <>
       <meta
@@ -35,7 +44,7 @@ const config = {
   },
   feedback: {
     useLink: () => {
-      return "mailto:eliot@eliot.sh";
+      return "mailto:college@bhs.sh";
     },
   },
   search: {

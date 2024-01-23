@@ -1,4 +1,8 @@
 {
-  "letters": "Letters of Reccomendation",
-  "grades": "Grades"
+  "profile": "Profile",
+  "family": "Family",
+  "education": "Education",
+  "activities": "Activities",
+  "writing": "Writing",
+  "courses-and-grades": "Courses & Grades"
 }
