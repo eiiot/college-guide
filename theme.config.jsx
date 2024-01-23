@@ -1,7 +1,19 @@
-import { Link } from "nextra-theme-docs";
-
 const config = {
-  logo: <span>BHS College Guide (Alpha)</span>,
+  logo: <span>🎓 BHS College Guide (Alpha)</span>,
+  head: (
+    <>
+      <meta
+        name="description"
+        content="A guide to the college application process for Berkeley High School students."
+      />
+      <meta name="og:title" content="BHS College Guide (Alpha)" />
+      <link
+        rel="icon"
+        type="image/png"
+        href="https://emojicdn.elk.sh/%F0%9F%8E%93?style=apple"
+      />
+    </>
+  ),
   project: {
     link: "https://github.com/eiiot/college-guide",
   },
