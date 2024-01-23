@@ -1,5 +1,13 @@
 const config = {
-  logo: <span>🎓 BHS College Guide (Alpha)</span>,
+  logo: (
+    <span
+      style={{
+        fontWeight: "bold",
+      }}
+    >
+      🎓 BHS College Guide (Alpha)
+    </span>
+  ),
   head: (
     <>
       <meta
@@ -30,14 +38,17 @@ const config = {
       return "mailto:eliot@eliot.sh";
     },
   },
+  search: {
+    placeholder: "Search...",
+  },
   footer: {
     text: (
       <span>
-        {new Date().getFullYear()} © Gabrielle Dar,{" "}
+        {new Date().getFullYear()} © Gabby Dar,{" "}
         <a href="https://eliothertenstein.com" target="_blank">
           Eliot Hertenstein
         </a>
-        , and Savannah Johnson.
+        , and Savannah Johnson - Class of 2024.
       </span>
     ),
   },
