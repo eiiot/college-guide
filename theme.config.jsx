@@ -1,7 +1,7 @@
 import { Link } from "nextra-theme-docs";
 
 const config = {
-  logo: <span>Berkeley High College Guide</span>,
+  logo: <span>BHS College Guide (Alpha)</span>,
   project: {
     link: "https://github.com/eiiot/college-guide",
   },
@@ -16,11 +16,11 @@ const config = {
   footer: {
     text: (
       <span>
-        MIT {new Date().getFullYear()} ©{" "}
-        <a href="https://nextra.site" target="_blank">
-          Eliot Hertenstein, Gabrielle Dar, Savannah Johnson
+        {new Date().getFullYear()} © Gabrielle Dar,{" "}
+        <a href="https://eliothertenstein.com" target="_blank">
+          Eliot Hertenstein
         </a>
-        .
+        , and Savannah Johnson.
       </span>
     ),
   },
