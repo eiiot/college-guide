@@ -12,6 +12,11 @@ const config = {
         type="image/png"
         href="https://emojicdn.elk.sh/%F0%9F%8E%93?style=apple"
       />
+      <script
+        defer
+        data-domain="college.bhs.sh"
+        src="https://analytics.eliothertenstein.com/js/script.js"
+      ></script>
     </>
   ),
   project: {
